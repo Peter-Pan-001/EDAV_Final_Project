@@ -82,10 +82,6 @@ function(input, output) {
       p <- p + geom_point()
     }
     
-    if (input$line){
-      p <- p + geom_line()
-    }
-    
     if (input$box){
       p <- p + geom_boxplot()
     }

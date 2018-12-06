@@ -72,7 +72,6 @@ fluidPage(
     selectInput('facet', 'Facet', c('None', names((data_select)[c('Team','Position')]))),
     
     checkboxInput('point', 'Point'),
-    checkboxInput('line', 'Line'),
     checkboxInput('box', 'Box'),
     checkboxInput('rotate', 'Rotate')
   ),
